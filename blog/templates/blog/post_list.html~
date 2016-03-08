@@ -1,0 +1,8 @@
+<html>
+<h1>Hello!</h1>
+{{posts}}
+{% for post in posts %}
+{{ post }}
+{% endfor %}
+
+</html>
